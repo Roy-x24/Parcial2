@@ -106,14 +106,22 @@ form.contacto {
     border-bottom: 2px solid #00BFFF;
 }
 
+.label{
+    
+    padding: 10px;
+    margin: 3px auto;
+    display: block;
+}
+
 .campotexto {
     width: 94%;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid #00BFFF;
     border-radius: 5px;
     background-color: #0D0D2B;
     color: #EAEAEA;
-    margin: 5px;
+    margin: 3px auto;
+    display: block;
 }
 
 .campoboton {
@@ -147,6 +155,7 @@ form.contacto {
     margin: 40px 0;
     border-top: 2px solid #00BFFF;
 }
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -157,6 +166,7 @@ form.contacto {
     ul.letras {
         flex-direction: column;
         width: 100%;
+
     }
 
     li.letrasnavbar {
@@ -165,5 +175,16 @@ form.contacto {
         padding: 10px 0;
     }
 
-    
+    .centrar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .centrar iframe {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+    }
 }

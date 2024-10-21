@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0D0D2B;
@@ -129,6 +129,7 @@ form.contacto {
     width: 15%;
     margin: 10px auto;
     padding: 6px;
+    text-align: center;
     border-radius: 6px;
     background-color: #0D0D2B;
     color: bisque;
@@ -149,7 +150,6 @@ form.contacto {
 .footer {
     background-color: #1C1C44;
     color: #00BFFF;
-    text-align: center;
     padding: 20px 0;
     width: 100%;
     margin: 40px 0;
@@ -181,10 +181,16 @@ form.contacto {
         align-items: center;
         padding: 10px;
     }
-
-    .centrar iframe {
+    .videos{
         width: 100%;
         max-width: 560px;
         height: auto;
     }
+    .campoboton{
+        text-align: center;
+        width: 30%;
+        padding: 10px 0;   
+    }
+
+    
 }
